@@ -1,0 +1,98 @@
+/* reset  */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    /* background-color: var(--orange); */
+    font-family: 'Heebo', sans-serif;
+    background-color: var(--color-body);
+}
+html{
+  scroll-behavior: smooth;
+}
+/* customize color */
+:root {
+  --primaryColor: #f1f1f1;
+  --black: rgb(26, 22, 22);
+  --black2: #555;
+  --black3: #252525;
+  --black4: #000;
+  --black5: #212529;
+  --orange: #0984e3;
+  --orange: #F65A83;
+  /* --orangrgb(3, 4, 4)c4c; */
+  --white: #fff;
+  --grey: #959595;
+  --grey2: #666;
+  --grey3: #ccc;
+  --font-primary:'Josefin Sans', sans-serif;
+  /* --font-primary:'ubuntu', sans-serif; */
+  --font-secondery:'Nunito Sans', sans-serif;
+  --color-body:#ecf0f3;
+  --background-color-1: linear-gradient(145deg, #1e2024, #23272b);
+  --shadow-1: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
+}
+
+/* main page wrapper */
+.main-page-wrapper{
+    overflow:hidden;
+}
+
+/* container */
+.feature-container, 
+.portfolio-container, 
+.testimonial-container footer{
+    width: 100%;
+    height: 100%;
+    padding: 5rem 0;
+    max-width: 1340px;
+    margin: 0 auto;
+    /* background-color: #5296e4; */
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 5rem 0;
+    max-width: 1340px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+}
+
+.glass{
+    background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13px );
+    -webkit-backdrop-filter: blur( 13px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );  
+}
+
+/* border bottom */
+.about,  .portfolio-container, 
+.portfolio-container, 
+.testimonial-container{
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+
+/* peralax */
+.peralax{
+    /* background-image: url(../photo/svg/Colored\ Shapes.svg); */
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* @media screen and (max-width: 768px) {
+    .container, .contact-form{
+        grid-template-columns: repeat(1,1fr);
+      }
+} */

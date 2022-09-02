@@ -1,0 +1,71 @@
+.portfolio-container{
+    background-image: url(../photo/svg/Colored\ Shapes2.svg);
+}
+section.portfolio-container .photo-gallery{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+}
+
+
+.portfolio-title{
+    margin: auto;
+    text-align: center;
+}
+
+.photo-section{
+    margin: 4rem 2rem 0.5em;
+    /* width: 62%; */
+    /* padding: 1.5em; */
+    border-radius: 19px;
+    /* background-color: var(--color-body); */
+    /* box-shadow: rgb(78 104 104) -2px 4px 29px -19px; */
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    /* transition: all 0.4s ease 0s; */
+
+
+    background: rgba( 255, 255, 255, 0 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 13px );
+-webkit-backdrop-filter: blur( 13px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.photo-section img{
+    width: 100%;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;    
+    transition: all .4s;
+    filter: grayscale(100%);
+
+}
+
+.photo-titles{
+    width: 90%;
+    margin: 2em auto 1.6rem;
+}
+
+.photo-section .photo-sec-title{
+    font-size: 14px;
+    font-family: var(--font-secondery);
+    letter-spacing: 1px;
+    margin: 1em 0;
+}
+
+.photo-section .photo-sec-title i{
+    font-size: 10px;
+    float: right;
+    letter-spacing: 2px;
+}
+.photo-section h3{
+    font-size: 2em;
+    font-weight: 500;
+}
+.effect-photo{
+}
+.photo-section:hover img{
+    transform: scale(1.04);
+    filter: grayscale(0%);
+}
