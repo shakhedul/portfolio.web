@@ -143,6 +143,7 @@ jQuery(document).ready(function($) {
           hideWord(takeNext($word))
         }, animationDelay);
       }
+      
   
       if ($letter.is(':last-child') && $('html').hasClass('no-csstransitions')) {
         var nextWord = takeNext($word);
@@ -167,7 +168,7 @@ jQuery(document).ready(function($) {
           setTimeout(function() {
             hideWord($word)
           }, animationDelay)
-        }
+        } 
       }
     }
   
