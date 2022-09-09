@@ -57,11 +57,25 @@ xclip
 /* =========================== */
 /* home another part */
 /* Start Home section */
+.peralax-home{
+  max-width: 100%;
+  margin: auto;
+  /* min-width: 1920px; */
+  /* min-height: 100%; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
 .home{
   width: 100%;
   height: 100%;
   border-bottom: 1px solid #d0d0d0;
-  background-image: url(../photo/svg/Animated\ Shape3.svg);
+  /* background-image: url(../photo/svg/Animated\ Shape3.svg); */
+  background-image: url(../photo/svg/Animated\ Shape11.svg);
 }
 .hme{
   /* width:100%; */

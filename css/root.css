@@ -41,17 +41,6 @@ html{
 }
 
 /* container */
-.feature-container, 
-.portfolio-container, 
-.testimonial-container footer{
-    width: 100%;
-    height: 100%;
-    padding: 5rem 0;
-    max-width: 1340px;
-    margin: 0 auto;
-    /* background-color: #5296e4; */
-}
-
 .container {
     width: 100%;
     height: 100%;
@@ -63,36 +52,46 @@ html{
     justify-content: space-between;
 }
 
-.glass{
+.home, .about, .feature-container, 
+.portfolio-container, 
+.testimonial-container footer{
+    width: 100%;
+    height: 100%;
+    max-width: 1340px;
+    margin:auto;
+    border-bottom: 1px solid rgb(208, 208, 208);
+}
+
+.feature-container, 
+.portfolio-container, 
+.testimonial-container footer{
+    padding: 5rem 0;
+}
+
+
+/* .glass{
     background: rgba( 255, 255, 255, 0 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 13px );
     -webkit-backdrop-filter: blur( 13px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );  
-}
+} */
 
-/* border bottom */
-.about,  .portfolio-container, 
-.portfolio-container, 
-.testimonial-container{
-    border-bottom: 1px solid rgb(208, 208, 208);
+.glass, .card{ 
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
 }
-
 
 /* peralax */
 .peralax{
-    /* background-image: url(../photo/svg/Colored\ Shapes.svg); */
-    min-height: 100%;
+    max-width: 1340px;
+    margin: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-/* @media screen and (max-width: 768px) {
-    .container, .contact-form{
-        grid-template-columns: repeat(1,1fr);
-      }
-} */
