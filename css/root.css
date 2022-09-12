@@ -79,19 +79,62 @@ html{
 } */
 
 .glass, .card{ 
-    background: rgba(255, 255, 255, 0.15);
+    /* background: rgba(255, 255, 255, 0.15);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(13px);
-    -webkit-backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px); */
+    /* From https://css.glass */
+
+    
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.6px);
+    -webkit-backdrop-filter: blur(10.6px);
+    border: 1px solid rgba(255, 255, 255, 0.64);
+
+
 }
 
 /* peralax */
 .peralax{
-    max-width: 1340px;
+    max-width: 100vw;
     margin: auto;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.about-bg{
+    width: 100vw;
+    background: #f4fcfb;
+    background-image:url(../photo/svg/Colored\ Shapes.svg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.service-bg{
+    width: 100vw;    
+    background: #fffafa;
+    /* background-image: url("../photo/svg/service.svg"); */
+    background-image: url("../photo/svg/service1.svg");
+
+    /* background-image:url(../photo/svg/Colored\ Shapes.svg); */
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.portfolio-bg{
+    /* background-image:url(../photo/svg/Colored\ Shapes.svg); */
+    background-image: url("../photo/svg/poerfolio.svg");
+    width: 100vw;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background: #f1f8f8; */
 }

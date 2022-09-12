@@ -1,6 +1,6 @@
-.feature-container{
+/* .feature-container{
     background-image: url(../photo/svg/Colored\ Shapes3.svg)
-}
+} */
 
 service-title{
     margin: auto 3em;
@@ -14,17 +14,17 @@ section.feature-container .card-wrapper{
     margin: 4rem auto;
     margin-bottom: 1rem;
     width: 62%;
-    padding: 2rem 3em 2.5em 3em;
+    padding: 1.5rem 3em 2.5em 3em;
     border-radius: 19px;
     cursor: pointer;
     transition: all .4s;
 }
 
-.card img{
-    width: 60%;
-}
+
 .card-img{
     width: 90%;
+    height: 200px;
+    background: transparent;
 }
 
 .card-icon{

@@ -1,5 +1,5 @@
 .portfolio-container{
-    background-image: url(../photo/svg/Colored\ Shapes2.svg);
+    /* background-image: url(../photo/svg/Colored\ Shapes2.svg); */
 }
 section.portfolio-container .photo-gallery{
     display: grid;
@@ -36,6 +36,7 @@ section.portfolio-container .photo-gallery{
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px 10px 0 0;    
+    outline: none;
     /* transition: transform .5s ease; */
     /* transition: transform .5s ease-in-out; */
     transition: transform .5s, filter .5s ease-in-out;
@@ -43,7 +44,7 @@ section.portfolio-container .photo-gallery{
     transform: scale(1.2);
 }
 
-.photo-section:hover img{
+.photo-section:hover .effect-photo{
     /* transform: scale(1.5); */
     /* transform: scale(1.4) rotate(25deg);
     transition: all .5s; */
@@ -78,7 +79,7 @@ section.portfolio-container .photo-gallery{
 .photo-forground a{
     text-decoration: none;
     outline: none;
-    background: #127ad4;
+    background: var(--orange);
     padding: 1rem 2rem;
     color: white;
     border-radius: 23px;
