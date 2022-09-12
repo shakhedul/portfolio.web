@@ -48,7 +48,7 @@
 .name-contact .input-group{
     flex-basis: 45%;
 }
-.contact-form .left-section img{
+.contact-form .left-section .contact-img{
     width: 80%;
 }
 
