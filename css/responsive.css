@@ -152,9 +152,14 @@
   .effect-photo{
     height: 260px;
   }
+
+.left-section{
+  margin: 4rem auto 2rem auto;
+}
+
     .contact-form .right-section{
-      margin: 3rem 0 0 2rem;
-    }
+      margin: 2rem 1rem 0rem 1.3rem;
+  }
      .icon-footer{
       margin-top: 5rem;
     }
@@ -162,6 +167,14 @@
       width: 4em;
       margin-top: 3rem;
     }
+    .name-contact .input-group {
+      flex-basis: 44%;
+  }
+    input, textarea{
+      width: 78%;
+    }
+
+
   
     .icon-bar{
       display: none;

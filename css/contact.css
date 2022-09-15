@@ -31,6 +31,10 @@
     float: left;
 }
 
+.contact-img{
+    margin: auto;
+}
+
 .right-section{
     width: 100%;
     float: right;
