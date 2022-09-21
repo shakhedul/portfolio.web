@@ -66,12 +66,14 @@ xclip
   /* height: 33%; */
   border-bottom: 1px solid #d0d0d0;
   background: #f1f8fb;
-  /* background-image: url(../photo/svg/Animated\ Shape3.svg); */
-  background-image: url("../photo/svg/home.svg");
+  /* background-image: url("../photo/svg/bg1.jpg"); */
+  background: url(../photo/svg/home2.svg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-image: url(../photo/svg/Animated\ Shape11.svg); */
+  z-index: 1;
+
+
 }
 .hme{
   /* width:100%; */

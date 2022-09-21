@@ -130,11 +130,3 @@ html{
 }
 
 
-.portfolio-bg{
-    /* background-image:url(../photo/svg/Colored\ Shapes.svg); */
-    background-image: url("../photo/svg/poerfolio.svg");
-    width: 100vw;
-    background-attachment: fixed;
-    background-size: cover;
-    /* background: #f1f8f8; */
-}
