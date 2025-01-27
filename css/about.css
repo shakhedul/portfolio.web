@@ -4,11 +4,19 @@
     /* float: left; */
     vertical-align: middle;
 }
-.about-photo-area lottie-player{
+
+/* .about-photo-area lottie-player{
+  width: 70%;
+  border-radius: 50%;
+  margin: 1rem 0 0 2rem;
+} */
+
+.about-photo-area .pic{
   width: 70%;
   border-radius: 50%;
   margin: 1rem 0 0 2rem;
 }
+
 .resume-area{
   width: 90%;
   

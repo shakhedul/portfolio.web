@@ -21,7 +21,13 @@ section.feature-container .card-wrapper{
 }
 
 
-.card-img{
+/* .card-img{
+    width: 90%;
+    height: 200px;
+    background: transparent;
+} */
+
+.pic{
     width: 90%;
     height: 200px;
     background: transparent;
